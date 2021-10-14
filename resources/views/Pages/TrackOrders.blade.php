@@ -1,3 +1,5 @@
+@extends('Share\Layout')
+@section('content')
 <div class="track-order-page">
 	<div class="row">
 		<div class="col-md-12">
@@ -16,4 +18,5 @@
 			</form>	
 		</div>			
 	</div><!-- /.row -->
-</div
+</div>
+@endsection

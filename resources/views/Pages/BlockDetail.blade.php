@@ -1,3 +1,5 @@
+@extends('Share\Layout')
+@section('content')
 <div class="row">
 			<div class="blog-page">
 				<div class="col-md-9">
@@ -367,3 +369,4 @@
 				</div>
 			</div>
 		</div>
+@endsection

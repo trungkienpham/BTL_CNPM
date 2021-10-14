@@ -1,3 +1,5 @@
+@extends('Share\Layout')
+@section('content')
 <div class="checkout-box ">
 			<div class="row">
 				<div class="col-md-8">
@@ -185,3 +187,4 @@
 <!-- checkout-progress-sidebar -->				</div>
 			</div><!-- /.row -->
 		</div>
+@endsection

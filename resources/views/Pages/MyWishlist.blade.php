@@ -1,3 +1,5 @@
+@extends('Share\Layout')
+@section('content')
 <div class="my-wishlist-page">
 			<div class="row">
 				<div class="col-md-12 my-wishlist">
@@ -62,3 +64,4 @@
 	</div>
 </div>			</div><!-- /.row -->
 		</div>
+@endsection

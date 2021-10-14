@@ -1,3 +1,5 @@
+@extends('Share\Layout')
+@section('content')
 <div class="x-page inner-bottom-sm">
 			<div class="row">
 				<div class="col-md-12 x-text text-center">
@@ -12,6 +14,6 @@
 			</div><!-- /.row -->
 		</div>
 
-
+@section('content')
 
 

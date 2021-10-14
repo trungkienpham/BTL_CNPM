@@ -1,3 +1,5 @@
+@extends('Share\Layout')
+@section('content')
 <div class="checkout-box faq-page">
 			<div class="row">
 				<div class="col-md-12">
@@ -168,3 +170,4 @@
 				</div>
 			</div><!-- /.row -->
 		</div>
+@endsection

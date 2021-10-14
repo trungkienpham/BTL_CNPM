@@ -1,3 +1,5 @@
+@extends('Share\Layout')
+@section('content')
 <div class="row ">
 			<div class="shopping-cart">
 				<div class="shopping-cart-table ">
@@ -177,30 +179,32 @@
 	</table><!-- /table -->
 </div><!-- /.estimate-ship-tax -->
 
-<div class="col-md-4 col-sm-12 cart-shopping-total">
-	<table class="table">
-		<thead>
-			<tr>
-				<th>
-					<div class="cart-sub-total">
-						Subtotal<span class="inner-left-md">$600.00</span>
-					</div>
-					<div class="cart-grand-total">
-						Grand Total<span class="inner-left-md">$600.00</span>
-					</div>
-				</th>
-			</tr>
-		</thead><!-- /thead -->
-		<tbody>
+	<div class="col-md-4 col-sm-12 cart-shopping-total">
+		<table class="table">
+			<thead>
 				<tr>
-					<td>
-						<div class="cart-checkout-btn pull-right">
-							<button type="submit" class="btn btn-primary checkout-btn">PROCCED TO CHEKOUT</button>
-							<span class="">Checkout with multiples address!</span>
+					<th>
+						<div class="cart-sub-total">
+							Subtotal<span class="inner-left-md">$600.00</span>
 						</div>
-					</td>
+						<div class="cart-grand-total">
+							Grand Total<span class="inner-left-md">$600.00</span>
+						</div>
+					</th>
 				</tr>
-		</tbody><!-- /tbody -->
-	</table><!-- /table -->
-</div><!-- /.cart-shopping-total -->			</div><!-- /.shopping-cart -->
-		</div
+			</thead><!-- /thead -->
+			<tbody>
+					<tr>
+						<td>
+							<div class="cart-checkout-btn pull-right">
+								<button type="submit" class="btn btn-primary checkout-btn">PROCCED TO CHEKOUT</button>
+								<span class="">Checkout with multiples address!</span>
+							</div>
+						</td>
+					</tr>
+			</tbody><!-- /tbody -->
+		</table><!-- /table -->
+	</div><!-- /.cart-shopping-total -->		
+	</div><!-- /.shopping-cart -->
+
+@endsection

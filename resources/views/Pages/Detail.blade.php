@@ -1,3 +1,5 @@
+@extends('Share\Layout')
+@section('content')
 <div class='row single-product'>
 			<div class='col-md-3 sidebar'>
 				<div class="sidebar-module-container">
@@ -996,3 +998,4 @@
 			</div><!-- /.col -->
 			<div class="clearfix"></div>
 		</div>
+@endsection

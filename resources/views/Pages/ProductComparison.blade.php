@@ -1,4 +1,6 @@
-div class="product-comparison">
+@extends('Share\Layout')
+@section('content')
+<div class="product-comparison">
 		<div>
 			<h1 class="page-title text-center heading-title">Product Comparison</h1>
 			<div class="table-responsive">
@@ -144,3 +146,4 @@ div class="product-comparison">
 			</div>
             </div>
 		</div>
+@endsection

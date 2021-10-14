@@ -1,3 +1,5 @@
+@extends('Share\Layout')
+@section('content')
 <div class="sign-in-page">
 			<div class="row">
 				<!-- Sign-in -->			
@@ -60,3 +62,4 @@
 </div>	
 <!-- create a new account -->			</div><!-- /.row -->
 		</div>
+@endsection

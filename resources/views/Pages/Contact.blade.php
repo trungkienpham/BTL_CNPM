@@ -1,4 +1,5 @@
-
+@extends('Share\Layout')
+@section('content')
   <div class="contact-page">
 		<div class="row">
 			
@@ -62,4 +63,4 @@
 		<span class="contact-span"><a href="#">flipmart@themesground.com</a></span>
 	</div>
 </div>			</div><!-- /.contact-page -->
-	
+@endsection

@@ -1,3 +1,5 @@
+@extends('Share\Layout')
+@section('content')
 <div class="terms-conditions-page">
 			<div class="row">
 				<div class="col-md-12 terms-conditions">
@@ -26,3 +28,4 @@
 	</div>
 </div>			</div><!-- /.row -->
 		</div>
+@endsection

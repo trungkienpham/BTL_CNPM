@@ -1,4 +1,5 @@
-
+@extends('Share\Layout')
+@section('content')
 <div class='row'>
       <div class='col-md-3 sidebar'> 
         <!-- ================================== TOP NAVIGATION ================================== -->
@@ -1793,3 +1794,4 @@
       </div>
       <!-- /.col --> 
     </div>
+@endsection
