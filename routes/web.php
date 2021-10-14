@@ -23,7 +23,7 @@ Route::get('/contact', function () {
     return view('Pages/Contact');
 });
 Route::get('/faq', function () {
-    return view('Pages/PAQ');
+    return view('Pages/FAQ');
 });
 Route::get('/mywishlist', function () {
     return view('Pages/MyWishlist');
@@ -40,10 +40,13 @@ Route::get('/terms&conditions', function () {
 Route::get('/trackorders', function () {
     return view('Pages/TrackOrders');
 });
+Route::get('/404', function () {
+    return view('Pages/404');
+});
 Route::get('/block/blockdetail', function () {
     return view('Pages/BlockDetail');
 });
-Route::get('/product/productcomparison', function () {
+Route::get('productcomparison', function () {
     return view('Pages/ProductComparison');
 });
 

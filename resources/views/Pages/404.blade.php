@@ -14,6 +14,6 @@
 			</div><!-- /.row -->
 		</div>
 
-@section('content')
+@endsection
 
 
